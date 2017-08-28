@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>RB-chat</title>
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <script type="text/javascript" src="scripts/RB-chat-head.js"></script>
+  <link href="stylesheets/normalize.css" rel="stylesheet" type="text/css" >
+  <link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet">
+  <link href="stylesheets/main.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+  <section id="main">
+    <h1>Circular Buffer Chat</h1>
+    <p>Buffer size = 6</p>
+    <form onsubmit="return false;">
+      <input type="text" id="newmessage" name="newmessage" maxlength="80" placeholder="Write something" autofocus>
+    </form>
+    <span class="smaller">Characters left:<span id="count">80</span></span><br>
+
+    <div id="chatflow"><b>The chat will be listed here...</b></div>
+  </section>
+
+  <script type="text/javascript" src="scripts/RB-chat-bottom.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+/* Site Colors:
+  #221e1d - dark
+  #eceae0 - light
+  #63aa9c - green borders
+  #e9633b - red attention
+  #8d0d19 - red 2
+*/
+
+/* A light CSS normalizeer / reset */
+body { height: 100%; width: 100%; margin: 0; padding: 0; border: 0; background: #fff;
+  font: 13px/15px Verdana,Arial,Helvetica,sans-serif; }
+img { border: none; }
+textarea, input, button { outline: none; }
+
+/* The settings */
+
+body {
+    background: #221e1d;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0 0 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #221e1d;
+    border-radius: 8px;
+    box-shadow: 2px 2px 1px #221e1d;
+}
+
+#main {
+    width: 420px;
+    margin: auto;
+    min-height: 600px;
+    background: #eceae0;
+    padding: 2em;
+}
+
+#main h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #e9633b;
+}
+
+#chatflow {
+    margin-bottom: 12px;
+}
+
+.viesti {
+    padding: 6px 6px;
+    margin: 4px 0;
+    border: 1px solid #221e1d;
+    background-color: #dddddd;
+    border-radius: 8px;
+}
+
+.viesti:nth-child(even) {
+    background-color: #fefefe;
+}
+
+footer, .smaller {
+  font-size: 80%;
+}
