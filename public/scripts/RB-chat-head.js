@@ -2,6 +2,13 @@
 
 var timer_on = 0; // A variable to know if the timer is on
 var intervalTimer; // A global variable for the timer
+var MSG_LENGTH = 80; // chat message max length (number of characters)
+
+// Set initial values from constant
+function initialize() {
+  document.getElementById('newmessage').maxLength = MSG_LENGTH;
+	document.getElementById('count').innerHTML = MSG_LENGTH;
+}
 
 // User pressed enter and the message will be sent
 function sendMessage(str) {

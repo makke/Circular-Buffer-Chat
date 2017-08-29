@@ -10,9 +10,9 @@ document.getElementById('newmessage').onkeyup = function (e) {
   if (e.keyCode == 13) {
     sendMessage(this.value);
     document.getElementById('newmessage').value = "";
-    document.getElementById('count').innerHTML = (80 - this.value.length);
+    document.getElementById('count').innerHTML = (MSG_LENGTH - this.value.length);
   } else {
-    document.getElementById('count').innerHTML = (80 - this.value.length);
+    document.getElementById('count').innerHTML = (MSG_LENGTH - this.value.length);
     // Let's restart the timer before starting it again in updateFlow();
     clearTimeout(intervalTimer);
     timer_on = 0;

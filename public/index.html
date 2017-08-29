@@ -12,14 +12,14 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet">
   <link href="stylesheets/main.css" rel="stylesheet" type="text/css" >
 </head>
-<body>
+<body onload="initialize();">
   <section id="main">
     <h1>Circular Buffer Chat</h1>
     <p>Buffer size = 6</p>
     <form onsubmit="return false;">
       <input type="text" id="newmessage" name="newmessage" maxlength="80" placeholder="Write something" autofocus>
     </form>
-    <span class="smaller">Characters left:<span id="count">80</span></span><br>
+    <span class="smaller">Characters left:<span id="count"> </span></span><br>
 
     <div id="chatflow"><b>The chat will be listed here...</b></div>
   </section>

@@ -20,6 +20,10 @@ Because the language I teach basic programming to my students with is PHP. Perha
 
 No, this is good as it is. A Circular Buffer is pretty simple in high-level languages. I would like to expand the front end a bit to make it more clear. Perhaps in a future version.
 
+* Why only 80 characters?
+
+Because the point is not for this to be a chat for long messages. If you want longer, then just change the MSG_LENGTH JavaScript constant.
+
 ## Other Future Development Ideas
 
 * More visual front end
